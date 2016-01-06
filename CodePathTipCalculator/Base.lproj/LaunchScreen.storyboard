@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController modalTransitionStyle="flipHorizontal" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Done by Hanaa Alazzeh" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIW-26-1lk">
+                                <rect key="frame" x="20" y="695" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unnamed.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Vhu-gD-WyO">
+                                <rect key="frame" x="24" y="28" width="367" height="346"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="346" id="4uo-Ka-6ij"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the Tip Calculator Application " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7EI-gh-3Xl">
+                                <rect key="frame" x="24" y="389" width="367" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="wV3-1e-i4W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7EI-gh-3Xl" firstAttribute="top" secondItem="Vhu-gD-WyO" secondAttribute="bottom" constant="15" id="9x4-OQ-0N2"/>
+                            <constraint firstItem="7EI-gh-3Xl" firstAttribute="centerX" secondItem="HIW-26-1lk" secondAttribute="centerX" id="EH2-ju-A80"/>
+                            <constraint firstItem="HIW-26-1lk" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="I08-sS-CV8"/>
+                            <constraint firstItem="Vhu-gD-WyO" firstAttribute="leading" secondItem="7EI-gh-3Xl" secondAttribute="leading" id="TkJ-GD-7sV"/>
+                            <constraint firstItem="Vhu-gD-WyO" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" symbolic="YES" id="Xxg-wI-HVF"/>
+                            <constraint firstAttribute="bottom" secondItem="HIW-26-1lk" secondAttribute="bottom" constant="20" symbolic="YES" id="fkA-5y-g11"/>
+                            <constraint firstItem="Vhu-gD-WyO" firstAttribute="trailing" secondItem="7EI-gh-3Xl" secondAttribute="trailing" id="hVJ-7g-9ps"/>
+                            <constraint firstItem="Vhu-gD-WyO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="4" id="rBZ-57-HIi"/>
+                            <constraint firstItem="HIW-26-1lk" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="yS2-Is-C6a"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="unnamed.jpg" width="300" height="300"/>
+    </resources>
+</document>
